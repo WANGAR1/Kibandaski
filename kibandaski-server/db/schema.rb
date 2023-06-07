@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_06_07_075120) do
+ActiveRecord::Schema.define(version: 2023_06_07_075743) do
 
   create_table "owners", force: :cascade do |t|
     t.string "name"
+  end
+
+  create_table "restaurants", force: :cascade do |t|
+    t.string "name"
+    t.integer "owner_id"
+    t.string "location"
+    t.datetime "opening_time"
+    t.datetime "closing_time"
   end
 
 end
