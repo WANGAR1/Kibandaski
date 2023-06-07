@@ -19,7 +19,7 @@
    puts "🌱 Seeding restaurants..."
 
     restaurant1 = Restaurant.create(
-        owner: owner1
+        owner: owner1,
         name: 'KwaWanjiku Hotel', 
         location: 'GuruNanak', 
         opening_time: Time.new(0, 1, 1, 8, 0, 0),
@@ -27,7 +27,7 @@
     )
 
     restaurant2 = Restaurant.create(
-        owner: owner2
+        owner: owner2,
         name: 'ChomaBase Hotel', 
         location: 'Kyamichael', 
         opening_time: Time.new(0, 1, 1, 8, 0, 0),
@@ -35,7 +35,7 @@
     )
 
     restaurant3 = Restaurant.create(
-        owner: owner3
+        owner: owner3,
         name: 'Ounde Hotel', 
         location: 'Githurai 45', 
         opening_time: Time.new(0, 1, 1, 8, 0, 0),
@@ -43,7 +43,7 @@
     )
 
     restaurant4 = Restaurant.create(
-        owner: owner4
+        owner: owner4,
         name: 'KwaJonte Hotel', 
         location: 'Roysambu', 
         opening_time: Time.new(0, 1, 1, 8, 0, 0),
