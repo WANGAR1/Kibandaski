@@ -56,4 +56,34 @@
     customer2 = Customer.create(name: 'Gradus Pondi')
     customer3 = Customer.create(name: 'Robert Muhaha')
     customer4 = Customer.create(name: 'Jane Doe')
+
+    puts "🌱 Seeding menus..."
+        Menu.create(
+        breakfast: 'chai jiaba', 
+        lunch:'ugali matumbo', 
+        dinner:'kamande rice', 
+        restaurant: restaurant1
+        )
+
+        Menu.create(
+        breakfast: 'uji', 
+        lunch:'milima', 
+        dinner:'chapo ndengu', 
+        restaurant: restaurant1
+        )
+
+        Menu.create(
+        breakfast: 'coffee', 
+        lunch:'ugali matura', 
+        dinner:'kamande njahe', 
+        restaurant: restaurant2
+        )
+
+        Menu.create(
+        breakfast: 'uji boflo', 
+        lunch:'omena', 
+        dinner:'chapo beans', 
+        restaurant: restaurant2
+        )
+    
 puts "✅ Done seeding!"
