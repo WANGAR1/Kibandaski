@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_06_07_135653) do
+ActiveRecord::Schema.define(version: 2023_06_07_151335) do
 
   create_table "customers", force: :cascade do |t|
     t.string "name"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2023_06_07_135653) do
     t.string "name"
     t.integer "customer_id"
     t.integer "restaurant_id"
+    t.integer "menu_id"
   end
 
   create_table "owners", force: :cascade do |t|
