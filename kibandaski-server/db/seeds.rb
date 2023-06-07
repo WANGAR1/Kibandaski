@@ -20,8 +20,8 @@
 
     restaurant1 = Restaurant.create(
         owner: owner1,
-        name: 'KwaWanjiku Hotel', 
-        location: 'GuruNanak', 
+        name: 'Kwa-Wanjiku Hotel', 
+        location: 'Guru-Nanak', 
         opening_time: Time.new(0, 1, 1, 8, 0, 0),
         closing_time: Time.new(0, 1, 1, 19, 0, 0)
     )
