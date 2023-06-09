@@ -1,0 +1,62 @@
+.cart-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .cart-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .delivery-methods {
+    margin-top: 20px;
+  }
+  
+  .delivery-method-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delivery-method-button:hover {
+    background-color: #45a049;
+  }
+  
+  .checkout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049;
+  }
+  
+  .empty-cart-message {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  

@@ -1,19 +1,24 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./owner/Dashboard";
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SignInSignUp from './SignInSignUp';
+import WelcomePage from './WelcomePage';
+//import OwnerLandingPage from './OwnerLandingPage';//
+import CustomerLandingPage from './Customer/CustomerLandingPage';
+import '../App.css'
 
-
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SignInSignUp />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/dashbord/" element={<Dashboard />} />
+        <Route path="/welcome/customer" element={<CustomerLandingPage />} />
+      </Routes>
+    </Router>
     
-    <Routes>
-      <Route path="/dashbord/" element={<Dashboard />} />
-      
-    </Routes>
-    
-  </BrowserRouter>
   );
-}
+};
 
 export default App;

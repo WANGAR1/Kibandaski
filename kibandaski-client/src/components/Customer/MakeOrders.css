@@ -1,0 +1,72 @@
+.orders-page {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .orders-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .delivery-method {
+    margin-bottom: 10px;
+  }
+  
+  .payment-method-label {
+    margin-bottom: 10px;
+  }
+  
+  .payment-method-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .payment-method-button:hover {
+    background-color: #45a049;
+  }
+  
+  .confirm-order-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .confirm-order-button:hover {
+    background-color: #45a049;
+  }
+  
+  .back-to-cart-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .back-to-cart-button:hover {
+    background-color: #999;
+  }
+  
