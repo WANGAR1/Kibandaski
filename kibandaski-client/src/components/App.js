@@ -1,9 +1,18 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./owner/Dashboard";
+
 
 function App() {
   return (
-   <p>"hello world"
-
-   </p>
+    <BrowserRouter>
+    
+    <Routes>
+      <Route path="/dashbord/" element={<Dashboard />} />
+      
+    </Routes>
+    
+  </BrowserRouter>
   );
 }
 
