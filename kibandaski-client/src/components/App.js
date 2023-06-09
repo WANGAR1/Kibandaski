@@ -6,6 +6,7 @@ import WelcomePage from './WelcomePage';
 //import OwnerLandingPage from './OwnerLandingPage';//
 import CustomerLandingPage from './Customer/CustomerLandingPage';
 import '../App.css'
+import Dashboard from './owner/Dashboard'
 
 const App = () => {
   return (
