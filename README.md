@@ -2,7 +2,8 @@
 
 ## Introduction
 
-The Kibandaski App is a Ruby-based web application designed to help owners manage their kibandaskis and allow customers to browse and order food items. This README provides an overview of the application, its features, technologies used, installation instructions, and other relevant information.
+The Kibandaski App is a Ruby-based web application designed to help owners manage their kibandaskis and allow customers to browse and order food items for their local eateries.  
+This README provides an overview of the application, its features, technologies used, installation instructions, and other relevant information. 
 
 ## Features
 
@@ -12,6 +13,8 @@ The Kibandaski App includes the following features:
 2. Kibandaski Management: Owners can add their kibandaskis, providing details such as name, location, and opening time.
 3. Menu Item Creation: Owners can create menu items for their kibandaskis, including food names, descriptions, and prices.
 4. Customer Browsing and Ordering: Customers can view kibandaskis, browse menu items, and place orders.
+
+## unfornately the owner side has had a few bugs so, we had to take it down but it will be un and running soon enough.
 
 ### [Add any additional features or functionality you plan to include]
 
