@@ -43,8 +43,12 @@ Ruby [version]
 1. Install the required gems: bundle install
 [Include any other installation steps, such as setting up the database or environment variables]
 Usage
-2. Run the application: ruby app.rb or rails server
-3. Open your web browser and visit: http://localhost:3000 (or the appropriate URL)
+2. Run the application: ruby app.rb 
+3. bundle install 
+4. bundle exec rake server
+5. bundle exec rake db:migrate db:seed
+
+Open your web browser and visit: http://localhost:3000 (or the appropriate URL)
 Testing
 [Optional] Specify instructions for running tests, including any test frameworks used.
 
