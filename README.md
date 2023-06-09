@@ -39,7 +39,7 @@ Ruby [version]
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/kibandaski-app.git
+1. Clone the repository: git clone 
 2. Change to the project directory: cd kibandaski-app
 
 ## Backend
