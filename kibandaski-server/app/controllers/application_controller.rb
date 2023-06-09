@@ -14,6 +14,11 @@ class ApplicationController < Sinatra::Base
         menus.to_json
     end
 
+    get '/restaurant/:id' do
+        restaurants = Restaurant.find(params[:id])
+        restaurants.to_json
+    end
+
     #edit menu 
     patch '/menus/:id' do 
         menus = Menu.find(params[:id])
