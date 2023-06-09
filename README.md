@@ -79,10 +79,11 @@ cd kibandaski-client
 2. [Joab Owala](https://github.com/JoabOwala)
 3. [Roy Kimathi](https://github.com/kimathi72)
 4. [Nick Mwirigi](https://github.com/MW1R1)
+ 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b my-new-feature
-Make your changes and commit them: git commit -am 'Add some feature'
-Push your changes to your fork: git push origin my-new-feature
-Submit a pull request detailing your changes.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: git checkout -b my-new-feature
+3. Make your changes and commit them: git commit -am 'Add some feature'
+4. Push your changes to your fork: git push origin my-new-feature
+5. Submit a pull request detailing your changes.
